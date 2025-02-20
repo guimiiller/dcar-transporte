@@ -1,0 +1,144 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #090B10;
+    padding: 80px 0;
+}
+
+.contentServices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.textServices{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    flex: 1;
+    max-width: 390px;
+}
+
+.textServices .flexServices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line{
+    height: 41px;
+    width: 2px;
+    background-color: #016BB2;
+    margin-right: 15px;
+}
+
+.textServices h2{
+    font-size: 35px;
+    color: #016BB2;
+}
+
+.textServices p{
+    color: #fff;
+    margin-left: 15px;
+    margin-top: 16px;
+}
+
+.contentSquares{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-width: 900px;
+    gap: 35px;
+}
+
+.contentSquares div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+    background: transparent;
+    border: 1px solid #016BB2;
+    padding: 20px 10px;
+    width: 500px;
+    height: 200px;
+}
+
+.contentSquares div h3{
+    font-size: 20px;
+    color: #016BB2;
+    margin-bottom: 24px;
+}
+
+.contentSquares div p{
+    color: #fff;
+    font-size: 15px;
+}
+
+@media (max-width: 1025px){
+    .contentServices{
+        align-items: start;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 769px){
+    .textServices{
+        max-width: 80%;
+        margin-left: 50px;
+    }
+
+    .textServices h2{
+        font-size: 50px;
+    }
+    
+    .contentSquares{
+        flex-direction: column;
+        padding: 0 50px;
+    }
+
+    .contentSquares div{
+        width: 100%;
+    }
+    .contentSquares div h3{
+        font-size: 25px;
+    }
+    
+    .contentSquares div p{
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 426px){
+    .textServices h2{
+        line-height: 60px;
+    }
+
+    .textServices{
+        max-width: 100%;
+        margin-left: 30px;
+    }
+
+    .contentSquares div h3{
+        font-size: 23px;
+    }
+    
+    .contentSquares div p{
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 376px){
+    .textServices h2{
+        font-size: 45px;
+    }
+
+    .contentSquares div h3{
+        font-size: 20px;
+    }
+}

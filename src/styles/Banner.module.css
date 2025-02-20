@@ -1,0 +1,162 @@
+.container{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.60), rgba(0,0,0,0.60)),url('../../public/AlbedoBase_XL_black_background_Lines_All_black_More_black_usi_3.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.bannerText{
+    max-width: 530px;
+    flex: 3;
+    margin-left: 79px;
+    margin-top: 100px;
+}
+
+.bannerContent{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1600px;
+}
+
+.lineBanner{
+    width: 153px;
+    height: 2px;
+    background-color: #016BB2;
+    margin-bottom: 20px;
+}
+
+.bannerText h1{
+    font-size: 63px;
+    line-height: 75px;
+    color: #fff;
+}
+
+
+.bannerText p{
+    margin-top: 49px;
+    margin-bottom: 61px;
+    color: #016BB2;
+    line-height: 26px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+.bannerImage{
+    flex: 1;
+}
+
+.bannerImage img {
+    width: 100%;
+    margin-left: 37px;
+    object-fit: cover;
+}
+
+@media (max-width: 1440px){
+    .bannerImage img {
+        height: 405px;
+    }
+}
+
+@media (max-width: 1024px){
+    .container{
+        height: auto;
+        justify-content: center;
+    }
+
+    .bannerText{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 170px;
+        margin-left: 0;
+        max-width: 600px;
+    }
+
+    .bannerContent{
+        flex-direction: column;
+    }
+
+    .bannerText h1{
+        font-size: 70px;
+        line-height: 80px;
+    }
+    
+    
+    .bannerText p{
+        font-size: 25px;
+        line-height: 35px;
+    }    
+
+    .bannerImage img {
+        width: 100%;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 768px){
+    .bannerImage img {
+        height: 380px;
+    }
+}
+
+@media (max-width: 426px){
+
+    .bannerText{
+        margin-left: 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .bannerText h1{
+        font-size: 55px;
+        line-height: 65px;
+    }
+
+    .bannerText p{
+        font-size: 21px;
+        line-height: 28px;
+    }    
+
+    .bannerImage img {
+        height: 225px;
+    }
+}
+
+@media (max-width: 376px){
+    .bannerText{
+        margin-top: 140px;
+    }
+
+    .bannerText h1{
+        font-size: 50px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 321px){
+    .bannerText{
+        margin-top: 70px;
+    }
+
+    .bannerText h1{
+        font-size: 45px;
+        line-height: 60px;
+    }
+}
+
+@media (max-width: 321px){
+    .bannerText{
+        margin-top: 150px;
+    }
+    
+}

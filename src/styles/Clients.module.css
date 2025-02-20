@@ -1,0 +1,173 @@
+.clientsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 16px 80px 16px;
+    background-color: #090B10;
+}
+
+.title {
+    color: #016BB2;
+    font-size: 30px;
+    margin-bottom: 44px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.clientsContainer {
+    position: relative;
+    width: 100%;
+    max-width: 768px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.clientsWrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.clientCard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    background-color: #016BB2;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, z-index 0.5s ease-in-out;
+    z-index: 0;
+}
+
+.clientCard.active {
+    opacity: 1;
+    z-index: 10;
+}
+
+.clientCard.inactive {
+    opacity: 0;
+    z-index: 0;
+}
+
+.clientInfo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.clientImage {
+    border-radius: 50%;
+    border: 2px solid white;
+    padding: 3px;
+    object-fit: cover;
+}
+
+.clientText h3 {
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+}
+
+.clientText p {
+    font-size: 15px;
+}
+
+.clientMessage {
+    text-align: center;
+    font-size: 15px;
+    padding: 0 50px;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 30px;
+}
+
+.arrowButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.divider {
+    width: 2px; /* Traço vertical por padrão */
+    height: 65px;
+    background-color: gray;
+    opacity: 0.4;
+}
+
+@media (max-width: 768px) { /* Ajuste para telas pequenas */
+    .controls {
+        flex-direction: row; /* Em linha nas telas menores */
+        justify-content: center;
+        gap: 8px; /* Espaçamento entre os botões */
+    }
+
+    .divider {
+        width: 65px;
+        height: 2px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .clientsContainer {
+        height: 290px;
+    }
+
+    .clientMessage {
+        padding: 0;
+        margin: 15px 0;
+    }
+
+    .clientCard {
+        justify-content: center;
+    }
+}
+/* Responsividade */
+@media (min-width: 769px) {
+    .clientsContainer {
+        max-width: 1024px;
+        flex-direction: row;
+    }
+
+    .clientCard {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .clientMessage {
+        text-align: left;
+        flex: 1;
+        padding-right: 16px;
+    }
+}
+
+@media (max-width: 321px){
+    .title {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 321px){
+    .clientMessage {
+        font-size: 14px;
+    }
+} 

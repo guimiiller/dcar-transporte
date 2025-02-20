@@ -1,0 +1,38 @@
+
+.countSection {
+    background-color: #016BB2;
+    padding: 74px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.countContainer {
+    max-width: 1280px; 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px; 
+}
+
+@media (min-width: 640px) {
+    .countContainer {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.countItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countNumber {
+    font-size: 3.75rem; 
+    font-weight: bold;
+    color: #fff; 
+}
+
+.countText {
+    font-size: 1.125rem; 
+    color: #fff; 
+}
