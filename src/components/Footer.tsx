@@ -20,7 +20,7 @@ export function Footer() {
             </div>
             
             <div>
-                <p className={styles.copyright}>© 2025 by Crow. Todos os direitos reservados</p>
+                <p className={styles.copyright}>© 2025 by DCAR Transporte. Todos os direitos reservados</p>
             </div>
 
         </footer>
