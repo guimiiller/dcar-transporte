@@ -13,14 +13,14 @@
 
 .faqTitle {
     margin: 40px 0 60px 0;
-    color: #090B10; /* Ajuste para a cor desejada */
+    color: #090B10;
     text-transform: uppercase;
     text-align: center;
     font-weight: bold;
 }
 
 .faqTitle h2{
-    font-size: 30px; /* Tamanho do texto */
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .faqText {
-    background-color: #090B10; /* Cor do fundo */
+    background-color: #090B10; 
     color: white;
     padding: 20px 20px 43px 20px;
     border-radius: 8px;
@@ -47,8 +47,8 @@
 }
 
 .faqAnswer {
-    background-color: #f0f0f0; /* Cor do fundo da resposta */
-    color: #090B10; /* Cor do texto */
+    background-color: #f0f0f0; 
+    color: #090B10; 
     padding: 16px;
     border-radius: 8px;
     width: 100%;

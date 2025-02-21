@@ -22,11 +22,11 @@
 }
 
 .button:hover.blue {
-    box-shadow: 0 0 12px rgba(1, 107, 178, 0.8); /* Luz azul */
+    box-shadow: 0 0 12px rgba(1, 107, 178, 0.8); 
 }
 
 .button:hover.black {
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8); /* Luz preta */
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.8);
 }
 
 .withMargin {

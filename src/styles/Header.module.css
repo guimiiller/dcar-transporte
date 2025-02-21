@@ -12,7 +12,7 @@
 
 .nav {
     display: flex;
-    justify-content: center; /* Centraliza os links */
+    justify-content: center; 
     align-items: center;
     width: 100%;
     height: 64px;
@@ -23,7 +23,7 @@
     display: flex;
     gap: 90px;
     list-style: none;
-    justify-content: center; /* Garante que os itens fiquem centralizados */
+    justify-content: center; 
     align-items: center;
     width: 100%;
 }
@@ -65,7 +65,7 @@
     flex-direction: column;
     gap: 5px;
     position: relative;
-    z-index: 100; /* Garante que fique acima do menu */
+    z-index: 100; 
 }
 
 .bar {
@@ -91,7 +91,7 @@
     background: white;
 }
 
-/* Menu Mobile */
+
 .mobileMenu {
     position: fixed;
     top: 0;
@@ -142,7 +142,7 @@
     }
 }
 
-/* Responsivo */
+
 @media (max-width: 768px) {
     .navList {
         display: none;

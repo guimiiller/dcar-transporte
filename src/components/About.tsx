@@ -7,7 +7,7 @@ export function About(){
     return(
         <section className={styles.container} id='about'>
             <div className={styles.contentAbout}>
-                <div className={styles.squareAbout}><h2>IMAGEM DCAR</h2></div>
+                <div className={styles.squareAbout}></div>
                 <div className={styles.textAbout}>
                     <div className={styles.flexAbout}>
                         <div className={styles.line}></div>

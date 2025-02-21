@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: rgba(0, 0, 0, 0.7); /* Fundo escurecido */
+    background: rgba(0, 0, 0, 0.7);
     z-index: 1000;
 }
 
@@ -42,7 +42,7 @@
     background: transparent;
     border: none;
     font-size: 24px;
-    color: #090B10; /* Cor do botão */
+    color: #090B10;
     cursor: pointer;
     padding: 5px;
 }
@@ -50,7 +50,7 @@
 
 .tooltip {
     position: absolute;
-    bottom: 315px; /* Posiciona o tooltip um pouco acima do final do card */
+    bottom: 315px; 
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(0, 0, 0, 0.7);
@@ -58,14 +58,14 @@
     font-size: 12px;
     padding: 5px 10px;
     border-radius: 5px;
-    visibility: visible; /* Sempre visível em dispositivos móveis */
-    opacity: 1; /* Sempre visível */
+    visibility: visible; 
+    opacity: 1; 
     transition: opacity 0.3s ease;
     white-space: nowrap;
 }
 
 .fleetCard:hover .tooltip {
-    visibility: visible; /* Torna o tooltip visível ao passar o mouse */
+    visibility: visible; 
     opacity: 1;
 }
 

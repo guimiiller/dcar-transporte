@@ -21,13 +21,17 @@
     width: 323px;
     height: 415px;
     background: transparent;
-    border: 1px solid #016BB2;
+    border: 2px solid #016BB2;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #016BB2;
     font-size: 20px;
+    background-image: linear-gradient(rgba(0,0,0,0.20), rgba(0,0,0,0.20)),url('/aboutImage.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .textAbout{
@@ -73,7 +77,7 @@
     }
 
     .textAbout{
-        order: 1; /* Texto primeiro */
+        order: 1;
         align-items: start;
         max-width: 80%;
     }
@@ -88,7 +92,7 @@
     }
 
     .squareAbout{
-        order: 2; /* Imagem depois */
+        order: 2;
         width: 80%;
         margin-top: 30px;
     }

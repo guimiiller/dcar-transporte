@@ -62,8 +62,15 @@
     }  
 }
 
-@media (max-width: 321px){
+@media (max-width: 426px){
     .contactBox {
-        width: 320px;
+        width: 50%; 
+        top: 10px;
+        left: 73%;
+        padding: 15px 15px 15px 10px;
+    }  
+
+    .contactText{
+        font-size: 14px;
     }
 }
