@@ -6,21 +6,19 @@ export function Footer() {
     return (
         <footer className={styles.footer}>
 
-            <Link href="/privacy">
-                <h2 className={styles.privacyPolicy}>Políticas de Privacidade</h2>
-            </Link>
+            <div className={styles.footerContent}>
+                <Link href="/privacy">
+                    <h2 className={styles.privacyPolicy}>Políticas de Privacidade</h2>
+                </Link>
+                
+                <div>
+                    <p className={styles.copyright}>© 2025 by <span className={styles.blue}>DCAR</span> Transporte. Todos os direitos reservados</p>
+                </div>
 
-            <div className={styles.socialLinks}>
-                <Link href="https://www.instagram.com/dcar_transporte/" target="_blank" className={styles.socialIcon}>
-                    <Image src={'/instagramblue.svg'} alt="Instagram" width={27} height={27}/>
-                </Link>
-                <Link href="https://facebook.com" target="_blank" className={styles.socialIcon}>
-                    <Image src={'/facebookblue.svg'} alt="Facebook" width={27} height={27}/>
-                </Link>
-            </div>
-            
-            <div>
-                <p className={styles.copyright}>© 2025 by DCAR Transporte. Todos os direitos reservados</p>
+                <div className={styles.crowContainer}>
+                    <h4>Criado por <Link href={'https://crowtechnology.com.br/'} target="blank">CROW<Image src={'/crowlogo.svg'} alt="Logo Crow" width={25} height={25}/></Link></h4>
+                </div>  
+
             </div>
 
         </footer>

@@ -16,7 +16,7 @@ export function Count() {
             <div className={styles.countContainer}>
                 
                 <div className={styles.countItem} ref={ref1}>
-                    {inView1 && <CountUp end={200} duration={2} className={styles.countNumber} />}
+                    {inView1 && <CountUp end={200} duration={2} suffix=" +" className={styles.countNumber}  style={{marginLeft:"17px"}}/>}
                     <p className={styles.countText}>Cargas entregues</p>
                 </div>
 

@@ -1,7 +1,8 @@
 .footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
     width: 100%;
     background-color: #090B10;
     padding: 25px 0;
@@ -21,6 +22,8 @@
 
 .socialLinks {
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 
@@ -39,9 +42,64 @@
     text-align: center;
 }
 
+.footerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribui os elementos igualmente */
+    width: 90%; /* Define um limite para o conteúdo */
+    max-width: 1200px; /* Para não ficar muito esticado em telas grandes */
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+.crowContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+.crowContainer h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.crowContainer a{
+    color: #fff;
+    margin-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.crowContainer img{
+    object-fit: cover;
+    margin-left: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.crowContainer img:hover{
+    transform: scale(1.1);
+}
+
+.blue{
+    color: #016BB2;
+}
+
 @media (max-width: 480px){
     .footer{
         flex-direction: column;
         gap: 15px;
+    }
+    
+    .footerContent{
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .copyright {
+        margin-top: 5px;
     }
 }
