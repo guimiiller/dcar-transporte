@@ -3,7 +3,7 @@ import styles from '../styles/About.module.css';
 import Image from 'next/image';
 import { Button } from './Button';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -14,12 +14,11 @@ export function About() {
             <div className={styles.contentAbout}>
                 <div className={styles.squareAbout}>
                     <Swiper
-                        modules={[Navigation, Pagination, Autoplay]}
+                        modules={[Navigation, Pagination]}
                         spaceBetween={10}
                         slidesPerView={1}
                         navigation
                         pagination={{ clickable: true }}
-                        autoplay={{ delay: 3000 }}
                         className={styles.carousel}
                     >
                         <SwiperSlide>
