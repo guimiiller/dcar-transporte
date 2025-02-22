@@ -60,7 +60,7 @@
 }
 
 .menuButton {
-    display: none;
+    display: flex;
     cursor: pointer;
     flex-direction: column;
     gap: 5px;

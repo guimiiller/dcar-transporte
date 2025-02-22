@@ -63,7 +63,7 @@ export function Header() {
                     <li><Link href="#contact" className={styles.mobileNavItem} onClick={() => setMenuOpen(false)}>Contato</Link></li>
                     <div className={styles.mobileIconsContainer}>
                         <Link href={'https://www.instagram.com/dcar_transporte/'} target="blank"><Image src={'/instagramblue.svg'} alt="Instagram Icon" width={30} height={30} className={styles.icon}/></Link>
-                        <Image src={'/facebookblue.svg'} alt="Facebook Icon" width={30} height={30} className={styles.icon}/>
+                        <Link href={'https://www.facebook.com/profile.php?id=61572571861626'} target="blank" ><Image src={'/facebookblue.svg'} alt="Facebook Icon" width={30} height={30} className={styles.icon}/></Link>
                     </div>
                 </ul>
             </div>

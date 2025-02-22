@@ -55,6 +55,14 @@
     object-fit: cover;
 }
 
+.bannerIcons{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+}
+
 @media (max-width: 1440px){
     .bannerImage img {
         height: 405px;
@@ -103,6 +111,10 @@
 @media (max-width: 768px){
     .bannerImage img {
         height: 380px;
+    }
+
+    .bannerIcons{
+        display: flex;
     }
 }
 
