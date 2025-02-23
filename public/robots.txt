@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dcartransporte.com.br
+
+# Sitemaps
+Sitemap: https://dcartransporte.com.br/sitemap.xml
