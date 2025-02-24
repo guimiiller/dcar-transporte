@@ -42,7 +42,7 @@ export function Header() {
 
                  <div className={styles.iconsContainer}>
                     <Link href={'https://www.instagram.com/dcar_transporte/'} target="blank"><Image src={'/instagramblue.svg'} alt="Instagram Icon" width={30} height={30} className={styles.icon}/></Link>
-                    <Link href={''}><Image src={'/facebookblue.svg'} alt="Facebook Icon" width={30} height={30} className={styles.icon}/></Link>
+                    <Link href={'https://www.facebook.com/profile.php?id=61572571861626'} target="blank"><Image src={'/facebookblue.svg'} alt="Facebook Icon" width={30} height={30} className={styles.icon}/></Link>
                 </div>
 
 
