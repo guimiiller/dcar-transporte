@@ -1,5 +1,7 @@
 import { Metadata } from "next";
 import styles from '../../styles/Privacy.module.css'
+import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "Política de Privacidade - DCAR Transporte",
@@ -59,6 +61,13 @@ export default function PrivacyPolicy() {
         <p className={styles.text}>
             Para dúvidas, entre em contato pelo e-mail: <strong>transportedcar@gmail.com</strong>
         </p>
+
+        <Link
+          href={'/'}
+        >
+          <Image src={'/arrowback.svg'} alt="Arrow Icon" width={40} height={40} 
+          className={styles.arrowBack}/>
+        </Link>
       </div>
     </section>
   );
