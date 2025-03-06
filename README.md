@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DCAR Transporte  
 
-## Getting Started
+![preview](/preview.jpeg)  
 
-First, run the development server:
+> Site Institucional para DCAR Transporte  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Este projeto foi desenvolvido para a **DCAR Transporte**, uma empresa especializada em transporte rodoviário. O site foi criado para apresentar os serviços de forma profissional, reforçando a credibilidade da marca e facilitando a captação de clientes. Todo o design foi **desenvolvido no Figma e aprovado na primeira versão pelo cliente**, garantindo uma interface intuitiva, moderna e alinhada com a identidade da empresa.  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Tecnologias  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Next.js 15  
+- TypeScript  
+- Module CSS  
+- Git/GitHub  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 💻 O que aprendi  
 
-## Learn More
+- **Criação de um site institucional profissional**, estruturado para apresentar os serviços da DCAR Transporte de forma clara e objetiva.  
+- **Desenvolvimento do design no Figma**, garantindo uma interface visualmente atrativa e alinhada com a identidade da empresa.  
+- **Aprofundamento em Module CSS**, organizando os estilos de maneira modular para melhor manutenção e escalabilidade.  
+- **Melhoria na escrita de código em TypeScript**, garantindo maior segurança, organização e escalabilidade no desenvolvimento.  
+- **Aplicação das funcionalidades do Next.js 15**, tornando o site mais performático e modular com React Server Components e otimização de carregamento.  
 
-To learn more about Next.js, take a look at the following resources:
+## 📨 Contato  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- guilhermemillerblack@gmail.com  
